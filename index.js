@@ -19,6 +19,9 @@ server.get('/contact', function(request, response){
 server.post('/contact', function(request, response){
   response.json(request.body);
 });
+server.post('/about', function(request, response){
+  response.json(request.body);
+});
 
 
 server.listen(8080);
