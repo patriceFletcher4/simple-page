@@ -2,19 +2,20 @@
 <html>
 <head>
   <title>Simple Page</title>
+  <link rel="stylesheet" href ="css/main.css">
   <head>
     <body>
-      <div>
+      <div id='navigation'>
         <ul>
-          <li>
+          <li class='btn'>
             <a href="/">Home</a>
-          </li>
+          </li class='btn'>
           <li>
             <a href="/about">About</a>
-          </li>
-          <li>
+          </li class='btn'>
+          <li class='btn'>
             <a href="/Contact">Contact</a>
-          </li>
+          </li class='btn'>
         </ul>
       </div>
       <!-- End of Navigation -->
@@ -36,7 +37,7 @@
           <input type="email" name='email' required>
           <br>
           <label for="message">Message:</label>
-          <textarea name="message" rows='20' cols='6'></textarea>
+          <textarea name="message" rows='20' cols='20'></textarea>
           <br>
           <button type='submit'>Send</button>
           <input type="submit" value='Send'>
